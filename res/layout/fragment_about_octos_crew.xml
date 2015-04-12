@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 Team-OctOs
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:octos="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView">
+
+    <LinearLayout
+            android:id="@+id/crew"
+            style="@style/settingsFragmentStyle">
+
+        <com.about.octos.widgets.DeveloperPreference
+                android:title="hedwig34"
+                octos:nameDev="hedwig34"
+                octos:twitterHandle="hedwig34"
+                octos:githubLink="@string/github_hedwig34"
+                octos:emailDev="hedwig34@gmail.com"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+         <com.about.octos.widgets.DeveloperPreference
+                android:title="cjkacz"
+                octos:nameDev="cjkacz"
+                octos:twitterHandle="cjkacz_"
+                octos:githubLink="@string/github_cjkacz"
+                octos:emailDev="cjkacz@gmail.com"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+          <com.about.octos.widgets.DeveloperPreference
+                android:title="Grommish"
+                octos:nameDev="Grommish"
+                octos:twitterHandle="Grommish"
+                octos:githubLink="@string/github_Grommish"
+                octos:emailDev="grommish@gmail.com"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+           <com.about.octos.widgets.DeveloperPreference
+                android:title="hlxanthus"
+                octos:nameDev="hlxanthus"
+                octos:twitterHandle="hlxanthus"
+                octos:githubLink="@string/github_hlxanthus"
+                octos:emailDev="christianjhayden@gmail.com"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.about.octos.widgets.DeveloperPreference
+                android:title="bthorne79"
+                octos:nameDev="bthorne79"
+                octos:twitterHandle="teamoctos"
+                octos:githubLink="@string/github_bthorne79"
+                octos:emailDev="rcovington79@gmail.com"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.about.octos.widgets.DeveloperPreference
+                android:title="Dubbsy"
+                octos:nameDev="Dubbsy"
+                octos:twitterHandle="CJDubbsy"
+                octos:githubLink="@string/github_CJDubbsy"
+                octos:emailDev="Cjwindhausen@gmail.com"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

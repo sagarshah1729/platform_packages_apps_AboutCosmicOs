@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 Team-OctOs
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">AboutOctOs</string>
+
+    <!-- About -->
+    <string name="devs">The Crew</string>
+    <string name="octos" translatable="false">Team-OctOs</string>
+    <string name="octos_website_title">Team-OctOs website</string>
+    <string name="octos_website_summary">www.teamoctos.com - Find all newest releases here</string>
+    <string name="octos_review_title">Team-OctOs Code Review - Gerrit</string>
+    <string name="octos_review_summary">View Team-OctOs\'s Gerrit instance</string>
+    <string name="about_octos">About Team-OctOs</string>
+    <string name="about_octos_summary">@null</string>
+    <string name="donate_octos" translatable="false">    </string>
+    <string name="github_octos" translatable="false">https://github.com/Team-OctOS</string>
+    <string name="github_hedwig34" translatable="false">https://github.com/hedwig34</string>
+    <string name="github_cjkacz" translatable="false">https://github.com/cjkacz</string>
+    <string name="github_Grommish" translatable="false">https://github.com/Grommish</string>
+    <string name="github_hlxanthus" translatable="false">https://github.com/hlxanthus</string>
+    <string name="github_bthorne79" translatable="false">https://github.com/bthorne79</string>
+    <string name="github_CJDubbsy" translatable="false">https://github.com/CJDubbsy</string>
+
+    <string name="url_octos" translatable="false">http://teamoctos.com/</string>
+    <string name="url_octos_gerrit" translatable="false">http://review.teamoctos.com:8080/</string>
+    <string name="team_octos_project" translatable="false">Team-OctOS</string>
+    <string name="team_octos_members">The Crew</string>
+    <string name="team_octos_supporters">Supporters</string>
+    <string name="octos_supporters_url">http://www.teamoctos.com/our-supporters/</string>
+    <!-- dynamic changelog -->
+    <string name="mgerrit_changelog_title">mGerrit: Dynamic ChangeLog</string>
+    <string name="mgerrit_changelog_summary">Interactive changelog pulled live from our Gerrit instance</string>
+
+</resources>
