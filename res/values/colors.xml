@@ -15,8 +15,5 @@
 -->
 <resources>
     <color name="background_tab_pressed">#66757575</color>
-    <color name="tab_color">#009688</color>
-<!--    <color name="tab_color">"@*android:color/accent_material_light"</color> -->
-
-
+    <color name="tab_color">@*android:color/accent_material_light</color>
 </resources>
