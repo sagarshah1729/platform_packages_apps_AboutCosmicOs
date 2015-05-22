@@ -84,5 +84,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
+	    <com.about.octos.widgets.DeveloperPreference
+                android:title="jorapi"
+                octos:nameDev="jorapi"
+                octos:twitterHandle="jorapi"
+                octos:githubLink="@string/github_jorapi"
+                octos:emailDev="jorapi@gmail.com"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
     </LinearLayout>
 </ScrollView>
