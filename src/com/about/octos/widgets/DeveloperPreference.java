@@ -21,6 +21,7 @@ public class DeveloperPreference extends LinearLayout {
     public static final String GRAVATAR_API = "http://www.gravatar.com/avatar/";
     public static int mDefaultAvatarSize = 400;
     private ImageView twitterButton;
+    private ImageView gplusButton;
     private ImageView donateButton;
     private ImageView githubButton;
     private ImageView photoView;
@@ -29,6 +30,7 @@ public class DeveloperPreference extends LinearLayout {
 
     private String nameDev;
     private String twitterName;
+    private String gplusLink;
     private String donateLink;
     private String githubLink;
     private String devEmail;
@@ -54,6 +56,7 @@ public class DeveloperPreference extends LinearLayout {
             typedArray = context.obtainStyledAttributes(attrs, R.styleable.DeveloperPreference);
             nameDev = typedArray.getString(R.styleable.DeveloperPreference_nameDev);
             twitterName = typedArray.getString(R.styleable.DeveloperPreference_twitterHandle);
+            gplusLink = typedArray.getString(R.styleable.DeveloperPreference_gplusLink);
             donateLink = typedArray.getString(R.styleable.DeveloperPreference_donateLink);
             githubLink = typedArray.getString(R.styleable.DeveloperPreference_githubLink);
             devEmail = typedArray.getString(R.styleable.DeveloperPreference_emailDev);
@@ -73,6 +76,7 @@ public class DeveloperPreference extends LinearLayout {
         twitterButton = (ImageView) layout.findViewById(R.id.twitter_button);
         donateButton = (ImageView) layout.findViewById(R.id.donate_button);
         githubButton = (ImageView) layout.findViewById(R.id.github_button);
+        gplusButton = (ImageView) layout.findViewById(R.id.gplus_button);
         devName = (TextView) layout.findViewById(R.id.name);
         photoView = (ImageView) layout.findViewById(R.id.photo);
 
@@ -92,6 +96,21 @@ public class DeveloperPreference extends LinearLayout {
             donateButton.setOnClickListener(openDonate);
         } else {
             donateButton.setVisibility(View.GONE);
+        }
+
+        if (gplusLink != null) {
+            final OnClickListener openGplus = new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Uri gplusURL = Uri.parse(gplusLink);
+                    final Intent intent = new Intent(Intent.ACTION_VIEW, gplusURL);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    getContext().startActivity(intent);
+                }
+            };
+            gplusButton.setOnClickListener(openGplus);
+        } else {
+            gplusButton.setVisibility(View.GONE);
         }
 
         if (githubLink != null) {

@@ -26,6 +26,7 @@
                 octos:nameDev="Team-OctOS"
                 octos:twitterHandle="teamoctos"
                 octos:githubLink="@string/github_octos"
+                octos:gplusLink="@string/gplus_octos"
                 octos:emailDev="teamoctos@gmail.com"
 
                 android:layout_width="match_parent"
