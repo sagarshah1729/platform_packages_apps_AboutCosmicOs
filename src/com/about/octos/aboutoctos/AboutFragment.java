@@ -24,17 +24,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import com.about.octos.aboutoctos.R;
 
 
 public class AboutFragment extends Fragment {
-
-    private static final String MGERRIT = "com.jbirdvegas.mgerrit";
-    private static final String MGERRIT_MAIN_ENTRY = ".GerritControllerActivity";
-    private static final String MGERRIT_OCTOS_CHANGELOG = ".OCTOSChangelog";
-    private static final String MGERRIT_PLAYSTORE = "https://play.google.com/store/apps/details?id=com.jbirdvegas.mgerrit";
 
     public AboutFragment() {
         // empty fragment constructor
@@ -43,32 +36,6 @@ public class AboutFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_about_octos, container, false);
-
-        root.findViewById(R.id.octos_mgerrit_changelog).setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // open mGerrit if we can. otherwise launch gerrit url.
-                try {
-                    launchActivity(MGERRIT, MGERRIT_MAIN_ENTRY);
-                } catch (ActivityNotFoundException failToMarket) {
-                    launchUrl(MGERRIT_PLAYSTORE);
-                }
-
-            }
-        });
-
-        root.findViewById(R.id.octos_review).setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // open mGerrit if we can. otherwise launch gerrit url.
-                try {
-                    launchActivity(MGERRIT, MGERRIT_OCTOS_CHANGELOG);
-                } catch (ActivityNotFoundException failToMarket) {
-                    launchUrl(getString(R.string.url_octos_gerrit));
-                }
-
-            }
-        });
 
         return root;
     }

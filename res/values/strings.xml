@@ -44,8 +44,5 @@
     <string name="octos_supporters_url">http://www.teamoctos.com/our-supporters/</string>
     <string name="team_octos_extras">Extras</string>
     <string name="octos_extras_url">http://www.teamoctos.com/oct-l-extras/</string>
-    <!-- dynamic changelog -->
-    <string name="mgerrit_changelog_title">mGerrit: Dynamic ChangeLog</string>
-    <string name="mgerrit_changelog_summary">Interactive changelog pulled live from our Gerrit instance</string>
 
 </resources>
