@@ -27,6 +27,7 @@
                 android:title="hedwig34"
                 octos:nameDev="hedwig34"
                 octos:twitterHandle="hedwig34"
+                octos:gplusLink="@string/gplus_hedwig34"
                 octos:githubLink="@string/github_hedwig34"
                 octos:emailDev="hedwig34@gmail.com"
 
@@ -39,17 +40,7 @@
                 octos:twitterHandle="cjkacz_"
                 octos:githubLink="@string/github_cjkacz"
                 octos:emailDev="cjkacz@gmail.com"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
-
-          <com.about.octos.widgets.DeveloperPreference
-                android:title="Grommish"
-                octos:nameDev="Grommish"
-                octos:twitterHandle="Grommish"
-                octos:githubLink="@string/github_Grommish"
-                octos:emailDev="grommish@gmail.com"
+                octos:gplusLink="@string/gplus_octos"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
