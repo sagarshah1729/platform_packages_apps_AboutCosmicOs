@@ -83,6 +83,25 @@ public class DeveloperPreference extends LinearLayout {
         /**
          * Initialize buttons
          */
+
+        if (nameDev != null) {
+            devName.setText(nameDev);
+            if (devEmail != null) {
+                UrlImageViewHelper.setUrlDrawable(this.photoView,
+                        getGravatarUrl(devEmail),
+                        R.drawable.ic_null,
+                        UrlImageViewHelper.CACHE_DURATION_ONE_WEEK);
+            } else {
+                    UrlImageViewHelper.setUrlDrawable(this.photoView,
+                        null,
+                        R.drawable.device_developer,
+                        UrlImageViewHelper.CACHE_DURATION_ONE_WEEK);
+            }
+        } else {
+            devName.setVisibility(View.GONE);
+            photoView.setVisibility(View.GONE);
+        }
+
         if (donateLink != null) {
             final OnClickListener openDonate = new OnClickListener() {
                 @Override
@@ -143,15 +162,9 @@ public class DeveloperPreference extends LinearLayout {
             // changed to clicking the preference to open twitter
             // it was a hit or miss to click the twitter bird
             this.setOnClickListener(openTwitter);
-            UrlImageViewHelper.setUrlDrawable(this.photoView,
-                    getGravatarUrl(devEmail),
-                    R.drawable.ic_null,
-                    UrlImageViewHelper.CACHE_DURATION_ONE_WEEK);
         } else {
             twitterButton.setVisibility(View.INVISIBLE);
-            photoView.setVisibility(View.GONE);
         }
-        devName.setText(nameDev);
     }
 
     public String getGravatarUrl(String email) {
