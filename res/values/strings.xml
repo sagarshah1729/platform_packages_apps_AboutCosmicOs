@@ -20,9 +20,9 @@
     <string name="devs">The Crew</string>
     <string name="octos" translatable="false">Team-OctOs</string>
     <string name="octos_website_title">Team-OctOs website</string>
-    <string name="octos_website_summary">www.teamoctos.com - Find all newest releases here</string>
+    <string name="octos_website_summary">Visit www.teamoctos.com</string>
     <string name="octos_review_title">Team-OctOs Code Review - Gerrit</string>
-    <string name="octos_review_summary">View Team-OctOs\'s Gerrit instance</string>
+    <string name="octos_review_summary">Visit Team-OctOs\'s Gerrit instance</string>
     <string name="about_octos">About Team-OctOs</string>
     <string name="about_octos_summary">@null</string>
     <string name="donate_octos" translatable="false">    </string>
@@ -44,5 +44,15 @@
     <string name="octos_supporters_url">http://www.teamoctos.com/our-supporters/</string>
     <string name="team_octos_extras">Extras</string>
     <string name="octos_extras_url">http://www.teamoctos.com/oct-l-extras/</string>
+
+    <!-- Device Maintainer can input their inforation here or set it in an overlay for the device-->
+    <string name="device_support_title" translatable="false">This device is supported by:</string>
+    <string name="dev_device" translatable="false">OctOs Community</string>
+    <string name="twitter_device" translatable="false">@null</string>
+    <string name="github_device" translatable="false">@null</string>
+    <string name="gplus_device" translatable="false">https://plus.google.com/communities/102188586220747781076/stream/5abec31e-4edd-4909-9758-89d091156b5a</string>
+    <!-- The developer photo is pulled from Gravatar using the supplied email address
+         Set email_device to @null to use the fallback photo image -->
+    <string name="email_device" translatable="false">@null</string>
 
 </resources>

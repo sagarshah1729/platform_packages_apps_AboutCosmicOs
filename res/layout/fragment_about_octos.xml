@@ -53,5 +53,31 @@
                 android:layout_height="wrap_content"
                 />
 
+        <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/device_support_title"
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:layout_marginStart="15dip"
+                android:layout_marginEnd="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginBottom="6dip"
+                android:layout_weight="1"
+                />
+
+        <com.about.octos.widgets.DeveloperPreference
+                octos:nameDev="@string/dev_device"
+                octos:twitterHandle="@string/twitter_device"
+                octos:githubLink="@string/github_device"
+                octos:gplusLink="@string/gplus_device"
+                octos:emailDev="@string/email_device"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
     </LinearLayout>
 </ScrollView>
