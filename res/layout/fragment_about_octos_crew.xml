@@ -24,63 +24,66 @@
             style="@style/settingsFragmentStyle">
 
         <com.about.octos.widgets.DeveloperPreference
-                android:title="hedwig34"
-                octos:nameDev="hedwig34"
-                octos:twitterHandle="hedwig34"
+                android:title="@string/dev_hedwig34"
+                octos:nameDev="@string/dev_hedwig34"
+                octos:twitterHandle="@string/twitter_hedwig34"
                 octos:gplusLink="@string/gplus_hedwig34"
                 octos:githubLink="@string/github_hedwig34"
-                octos:emailDev="hedwig34@gmail.com"
+                octos:emailDev="@string/email_hedwig34"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
          <com.about.octos.widgets.DeveloperPreference
-                android:title="cjkacz"
-                octos:nameDev="cjkacz"
-                octos:twitterHandle="cjkacz_"
+                android:title="@string/dev_cjkacz"
+                octos:nameDev="@string/dev_cjkacz"
+                octos:twitterHandle="@string/twitter_cjkacz"
+                octos:gplusLink="@string/gplus_cjkacz"
                 octos:githubLink="@string/github_cjkacz"
-                octos:emailDev="cjkacz@gmail.com"
-                octos:gplusLink="@string/gplus_octos"
+                octos:emailDev="@string/email_cjkacz"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
            <com.about.octos.widgets.DeveloperPreference
-                android:title="hlxanthus"
-                octos:nameDev="hlxanthus"
-                octos:twitterHandle="hlxanthus"
+                android:title="@string/dev_hlxanthus"
+                octos:nameDev="@string/dev_hlxanthus"
+                octos:twitterHandle="@string/twitter_hlxanthus"
+                octos:gplusLink="@string/gplus_hlxanthus"
                 octos:githubLink="@string/github_hlxanthus"
-                octos:emailDev="christianjhayden@gmail.com"
+                octos:emailDev="@string/email_hlxanthus"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
             <com.about.octos.widgets.DeveloperPreference
-                android:title="bthorne79"
-                octos:nameDev="bthorne79"
-                octos:twitterHandle="teamoctos"
+                android:title="@string/dev_bthorne79"
+                octos:nameDev="@string/dev_bthorne79"
+                octos:twitterHandle="@string/twitter_bthorne79"
+                octos:gplusLink="@string/gplus_bthorne79"
                 octos:githubLink="@string/github_bthorne79"
-                octos:emailDev="rcovington79@gmail.com"
+                octos:emailDev="@string/email_bthorne79"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
             <com.about.octos.widgets.DeveloperPreference
-                android:title="Dubbsy"
-                octos:nameDev="Dubbsy"
-                octos:twitterHandle="CJDubbsy"
+                android:title="@string/dev_CJDubbsy"
+                octos:nameDev="@string/dev_CJDubbsy"
+                octos:twitterHandle="@string/twitter_CJDubbsy"
+                octos:gplusLink="@string/gplus_CJDubbsy"
                 octos:githubLink="@string/github_CJDubbsy"
-                octos:emailDev="Cjwindhausen@gmail.com"
+                octos:emailDev="@string/email_CJDubbsy"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
 	    <com.about.octos.widgets.DeveloperPreference
-                android:title="jorapi"
-                octos:nameDev="jorapi"
-                octos:twitterHandle="jorapi"
+                android:title="@string/dev_jorapi"
+                octos:nameDev="@string/dev_jorapi"
+                octos:twitterHandle="@string/twitter_jorapi"
                 octos:githubLink="@string/github_jorapi"
-                octos:emailDev="jorapi@gmail.com"
+                octos:emailDev="@string/email_jorapi"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

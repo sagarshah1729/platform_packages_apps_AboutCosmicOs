@@ -25,16 +25,12 @@
     <string name="octos_review_summary">Visit Team-OctOs\'s Gerrit instance</string>
     <string name="about_octos">About Team-OctOs</string>
     <string name="about_octos_summary">@null</string>
+
+    <!-- Team OctOs -->
     <string name="donate_octos" translatable="false">    </string>
     <string name="github_octos" translatable="false">https://github.com/Team-OctOS</string>
     <string name="gplus_octos" translatable="false">https://plus.google.com/communities/102188586220747781076/</string>
-    <string name="github_hedwig34" translatable="false">https://github.com/hedwig34</string>
-    <string name="gplus_hedwig34" translatable="false">https://plus.google.com/+Aaronhedwig34Weis/about</string>
-    <string name="github_cjkacz" translatable="false">https://github.com/cjkacz</string>
-    <string name="github_hlxanthus" translatable="false">https://github.com/hlxanthus</string>
-    <string name="github_bthorne79" translatable="false">https://github.com/bthorne79</string>
-    <string name="github_CJDubbsy" translatable="false">https://github.com/CJDubbsy</string>
-    <string name="github_jorapi" translatable="false">https://github.com/jorapi</string>
+
 
     <string name="url_octos" translatable="false">http://teamoctos.com/</string>
     <string name="url_octos_gerrit" translatable="false">http://review.teamoctos.com:8080/</string>
@@ -44,6 +40,44 @@
     <string name="octos_supporters_url">http://www.teamoctos.com/our-supporters/</string>
     <string name="team_octos_extras">Extras</string>
     <string name="octos_extras_url">http://www.teamoctos.com/oct-l-extras/</string>
+
+    <!-- Developers -->
+
+    <string name="dev_hedwig34" translatable="false">hedwig34</string>
+    <string name="twitter_hedwig34" translatable="false">hedwig34</string>
+    <string name="github_hedwig34" translatable="false">https://github.com/hedwig34</string>
+    <string name="gplus_hedwig34" translatable="false">https://plus.google.com/+Aaronhedwig34Weis/about</string>
+    <string name="email_hedwig34" translatable="false">hedwig34@gmail.com</string>
+
+    <string name="dev_cjkacz" translatable="false">cjkacz</string>
+    <string name="twitter_cjkacz" translatable="false">cjkacz_</string>
+    <string name="github_cjkacz" translatable="false">https://github.com/cjkacz</string>
+    <string name="gplus_cjkacz" translatable="false">@string/gplus_octos</string>
+    <string name="email_cjkacz" translatable="false">cjkacz@gmail.com</string>
+
+    <string name="dev_hlxanthus" translatable="false">hlxanthus</string>
+    <string name="twitter_hlxanthus" translatable="false">hlxanthus</string>
+    <string name="github_hlxanthus" translatable="false">https://github.com/hlxanthus</string>
+    <string name="gplus_hlxanthus" translatable="false">@null</string>
+    <string name="email_hlxanthus" translatable="false">christianjhayden@gmail.com</string>
+
+    <string name="dev_bthorne79" translatable="false">bthorne79</string>
+    <string name="twitter_bthorne79" translatable="false">@null</string>
+    <string name="github_bthorne79" translatable="false">https://github.com/bthorne79</string>
+    <string name="gplus_bthorne79" translatable="false">@null</string>
+    <string name="email_bthorne79" translatable="false">rcovington79@gmail.com</string>
+
+    <string name="dev_CJDubbsy" translatable="false">Dubbsy</string>
+    <string name="twitter_CJDubbsy" translatable="false">CJDubbsy</string>
+    <string name="github_CJDubbsy" translatable="false">https://github.com/CJDubbsy</string>
+    <string name="gplus_CJDubbsy" translatable="false">@null</string>
+    <string name="email_CJDubbsy" translatable="false">Cjwindhausen@gmail.com</string>
+
+    <string name="dev_jorapi" translatable="false">jorapi</string>
+    <string name="twitter_jorapi" translatable="false">jorapi</string>
+    <string name="github_jorapi" translatable="false">https://github.com/jorapi</string>
+    <string name="gplus_jorapi" translatable="false">@null</string>
+    <string name="email_jorapi" translatable="false">jorapi@gmail.com</string>
 
     <!-- Device Maintainer can input their inforation here or set it in an overlay for the device-->
     <string name="device_support_title" translatable="false">This device is supported by:</string>
