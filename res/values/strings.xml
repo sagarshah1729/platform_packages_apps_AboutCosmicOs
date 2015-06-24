@@ -89,4 +89,11 @@
          Set email_device to @null to use the fallback photo image -->
     <string name="email_device" translatable="false">@null</string>
 
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="hide_icon_title">Hide the launcher icon</string>
+    <string name="hide_icon_description">This hides the AboutOctOs icon from the launcher
+        preventing it from appearing in the app drawer.
+    </string>
+    <string name="title_activity_settings">Settings</string>
 </resources>
