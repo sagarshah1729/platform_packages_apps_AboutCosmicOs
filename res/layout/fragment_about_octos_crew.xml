@@ -78,12 +78,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-	    <com.about.octos.widgets.DeveloperPreference
+        <com.about.octos.widgets.DeveloperPreference
                 android:title="@string/dev_jorapi"
                 octos:nameDev="@string/dev_jorapi"
                 octos:twitterHandle="@string/twitter_jorapi"
                 octos:githubLink="@string/github_jorapi"
                 octos:emailDev="@string/email_jorapi"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <com.about.octos.widgets.DeveloperPreference
+                android:title="@string/dev_jlask"
+                octos:nameDev="@string/dev_jlask"
+                octos:twitterHandle="@string/twitter_jlask"
+                octos:gplusLink="@string/gplus_jlask"
+                octos:githubLink="@string/github_jlask"
+                octos:emailDev="@string/email_jlask"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
