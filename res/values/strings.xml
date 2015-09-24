@@ -83,7 +83,7 @@
     <string name="twitter_jlask" translatable="false">jason972000</string>
     <string name="github_jlask" translatable="false">https://github.com/jlask</string>
     <string name="gplus_jlask" translatable="false">https://plus.google.com/u/0/110570615017976620207/about</string>
-    <string name="email_jlask" translatable="false">teamoctos@gmail.com</string>
+    <string name="email_jlask" translatable="false">jason972000@gmail.com</string>
 
     <!-- Device Maintainer can input their inforation here or set it in an overlay for the device-->
     <string name="device_support_title" translatable="false">This device is supported by:</string>
