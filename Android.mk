@@ -9,6 +9,7 @@ LOCAL_PACKAGE_NAME := AboutOctOs
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4 \
-    android-support-v13
+    android-support-v13 \
+    org.apache.http.legacy
 
 include $(BUILD_PACKAGE)
