@@ -73,12 +73,6 @@
     <string name="gplus_CJDubbsy" translatable="false">@null</string>
     <string name="email_CJDubbsy" translatable="false">Cjwindhausen@gmail.com</string>
 
-    <string name="dev_jorapi" translatable="false">jorapi</string>
-    <string name="twitter_jorapi" translatable="false">jorapi</string>
-    <string name="github_jorapi" translatable="false">https://github.com/jorapi</string>
-    <string name="gplus_jorapi" translatable="false">@null</string>
-    <string name="email_jorapi" translatable="false">jorapi@gmail.com</string>
-
     <string name="dev_jlask" translatable="false">jlask</string>
     <string name="twitter_jlask" translatable="false">jason972000</string>
     <string name="github_jlask" translatable="false">https://github.com/jlask</string>
