@@ -24,10 +24,10 @@
 
         <com.about.octos.widgets.DeveloperPreference
                 octos:nameDev="Team-OctOS"
-                octos:twitterHandle="teamoctos"
+                octos:twitterHandle="@string/twitter_octos"
                 octos:githubLink="@string/github_octos"
                 octos:gplusLink="@string/gplus_octos"
-                octos:emailDev="teamoctos@gmail.com"
+                octos:emailDev="@string/email_octos"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

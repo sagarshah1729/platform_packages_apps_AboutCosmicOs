@@ -28,8 +28,10 @@
 
     <!-- Team OctOs -->
     <string name="donate_octos" translatable="false">    </string>
+    <string name="twitter_octos" translatable="false">teamoctos</string>
     <string name="github_octos" translatable="false">https://github.com/Team-OctOS</string>
     <string name="gplus_octos" translatable="false">https://plus.google.com/communities/102188586220747781076/</string>
+    <string name="email_octos" translatable="false">teamoctos@gmail.com</string>
 
 
     <string name="url_octos" translatable="false">http://teamoctos.com/</string>
@@ -72,6 +74,12 @@
     <string name="github_CJDubbsy" translatable="false">https://github.com/CJDubbsy</string>
     <string name="gplus_CJDubbsy" translatable="false">@null</string>
     <string name="email_CJDubbsy" translatable="false">Cjwindhausen@gmail.com</string>
+
+    <string name="dev_canondroid15" translatable="false">canondroid15</string>
+    <string name="twitter_canondroid15" translatable="false">@string/twitter_octos</string>
+    <string name="github_canondroid15" translatable="false">@null</string>
+    <string name="gplus_canondroid15" translatable="false">https://plus.google.com/u/0/102791315682894112550/posts</string>
+    <string name="email_canondroid15" translatable="false">@string/email_octos</string>
 
     <string name="dev_jlask" translatable="false">jlask</string>
     <string name="twitter_jlask" translatable="false">jason972000</string>

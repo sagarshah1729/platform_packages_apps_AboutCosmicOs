@@ -79,6 +79,16 @@
                 android:layout_height="wrap_content"/>
 
         <com.about.octos.widgets.DeveloperPreference
+                android:title="@string/dev_canondroid15"
+                octos:nameDev="@string/dev_canondroid15"
+                octos:twitterHandle="@string/twitter_canondroid15"
+                octos:gplusLink="@string/gplus_canondroid15"
+                octos:emailDev="@string/email_canondroid15"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <com.about.octos.widgets.DeveloperPreference
                 android:title="@string/dev_jlask"
                 octos:nameDev="@string/dev_jlask"
                 octos:twitterHandle="@string/twitter_jlask"
