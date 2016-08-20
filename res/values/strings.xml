@@ -42,6 +42,8 @@
     <string name="octos_supporters_url">http://www.teamoctos.com/our-supporters/</string>
     <string name="team_octos_extras">Extras</string>
     <string name="octos_extras_url">http://www.teamoctos.com/oct-m-extras/</string>
+    <string name="team_octos_kraken">Kraken Kernel</string>
+    <string name="octos_kraken_url">http://www.teamoctos.com/kraken-kernel-oct-m/</string>
 
     <!-- Developers -->
 

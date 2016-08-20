@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Since the Kraken kernel is not available on all devices the default is to not show the kraken tab.
+         The Kraken tab should be enabled in device overlay. -->
+    <bool name="device_has_kraken">false</bool>
+</resources>
