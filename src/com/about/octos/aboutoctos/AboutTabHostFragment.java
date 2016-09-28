@@ -25,15 +25,13 @@ public class AboutTabHostFragment extends Fragment {
             R.string.team_octos_project,
             R.string.team_octos_members,
             R.string.team_octos_supporters,
-            R.string.team_octos_extras
     };
 
     private static final int[] mFragmentsKraken = new int[] {
             R.string.team_octos_project,
             R.string.team_octos_members,
-            R.string.team_octos_supporters,
             R.string.team_octos_kraken,
-            R.string.team_octos_extras
+            R.string.team_octos_supporters,
     };
 
     @Override
@@ -86,18 +84,16 @@ public class AboutTabHostFragment extends Fragment {
                 case 1:
                     return new AboutCrewFragment();
                 case 2:
-                    return new AboutSupportersFragment();
-                case 3:
                     if (!mKraken.getBoolean(R.bool.device_has_kraken)) {
-                        return new AboutExtrasFragment();
+                        return new AboutSupportersFragment();
                     }
                     else
                     {
                         return new AboutKrakenFragment();
                     }
-                case 4:
+                case 3:
                     if (mKraken.getBoolean(R.bool.device_has_kraken)) {
-                        return new AboutExtrasFragment();
+                        return new AboutSupportersFragment();
                     }
             }
             return null;
