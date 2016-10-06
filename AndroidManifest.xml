@@ -13,7 +13,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/about_octos"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/OctOSTheme" >
         <activity
             android:name=".AboutActivity"
             android:label="@string/about_octos" >

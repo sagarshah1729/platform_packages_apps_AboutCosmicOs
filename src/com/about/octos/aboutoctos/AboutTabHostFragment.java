@@ -1,7 +1,5 @@
 package com.about.octos.aboutoctos;
 
-import com.about.octos.astuetz.viewpager.extensions.PagerSlidingTabStrip;
-
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;

@@ -14,6 +14,25 @@
      limitations under the License.
 -->
 <resources>
-    <color name="background_tab_pressed">#66757575</color>
-    <color name="tab_color">@*android:color/accent_material_light</color>
+    <!-- <color name="background_tab_pressed">#66757575</color> -->
+    <color name="tab_color">@color/material_deep_teal_500</color>
+
+    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
+    <!-- <color name="material_deep_teal_500">#009688</color> -->
+    <!-- <color name="tab_color">@color/material_deep_teal_500</color> -->
+    <!-- <color name="material_blue_grey_900">#ff263238</color> -->
+    <color name="material_blue_grey_900">@*android:color/material_blue_grey_900</color>
+
+
+    <!-- new -->
+    <color name="white">#FFF</color>
+    <color name="background_tab_pressed">#1AFFFFFF</color>
+    <color name="icon_tint_color">@color/material_deep_teal_500</color>
+
+    <!-- Expanded desktop -->
+    <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
+    <drawable name="expanded_item_bg">@android:color/background_light</drawable>
+    <color name="expanded_button_color_normal">#4CAF50</color>
+    <color name="expanded_button_color_close">#F44336</color>
+
 </resources>

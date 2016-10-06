@@ -19,14 +19,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.about.octos.astuetz.viewpager.extensions.PagerSlidingTabStrip
+    <com.about.octos.aboutoctos.PagerSlidingTabStrip
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="48dip"
-        android:background="@drawable/background_tab"
-        octos:dividerColor="@color/tab_color"
-        octos:underlineColor="@color/tab_color"
-        octos:indicatorColor="@color/tab_color" />
+        android:background="@drawable/tab"
+        octos:pstsDividerColor="@color/tab_color"
+        octos:pstsUnderlineColor="@color/tab_color"
+        octos:pstsIndicatorColor="@color/tab_color" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
