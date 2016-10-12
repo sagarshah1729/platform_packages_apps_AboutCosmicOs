@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015-2016 Team-OctOs
+<!-- Copyright (C) 2015-2016 Team-OctOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,15 +18,15 @@
 
     <!-- About -->
     <string name="devs">The Crew</string>
-    <string name="octos" translatable="false">Team-OctOs</string>
-    <string name="octos_website_title">Team-OctOs website</string>
+    <string name="octos" translatable="false">Team-OctOS</string>
+    <string name="octos_website_title">Team-OctOS website</string>
     <string name="octos_website_summary">Visit www.teamoctos.com</string>
-    <string name="octos_review_title">Team-OctOs Code Review - Gerrit</string>
-    <string name="octos_review_summary">Visit Team-OctOs\'s Gerrit instance</string>
-    <string name="about_octos">About Team-OctOs</string>
+    <string name="octos_review_title">Team-OctOS Code Review - Gerrit</string>
+    <string name="octos_review_summary">Visit Team-OctOS\'s Gerrit instance</string>
+    <string name="about_octos">About Team-OctOS</string>
     <string name="about_octos_summary">@null</string>
 
-    <!-- Team OctOs -->
+    <!-- Team OctOS -->
     <string name="donate_octos" translatable="false">    </string>
     <string name="twitter_octos" translatable="false">teamoctos</string>
     <string name="github_octos" translatable="false">https://github.com/Team-OctOS</string>
@@ -77,7 +77,7 @@
 
     <!-- Device Maintainer can input their inforation here or set it in an overlay for the device-->
     <string name="device_support_title" translatable="false">This device is supported by:</string>
-    <string name="dev_device" translatable="false">OctOs Community</string>
+    <string name="dev_device" translatable="false">OctOS Community</string>
     <string name="twitter_device" translatable="false">@null</string>
     <string name="github_device" translatable="false">@null</string>
     <string name="gplus_device" translatable="false">https://plus.google.com/communities/102188586220747781076/stream/5abec31e-4edd-4909-9758-89d091156b5a</string>
@@ -88,7 +88,7 @@
     <!-- Settings -->
     <string name="settings_title">Settings</string>
     <string name="hide_icon_title">Hide the launcher icon</string>
-    <string name="hide_icon_description">This hides the AboutOctOs icon from the launcher
+    <string name="hide_icon_description">This hides the AboutOctOS icon from the launcher
         preventing it from appearing in the app drawer.
     </string>
     <string name="title_activity_settings">Settings</string>
