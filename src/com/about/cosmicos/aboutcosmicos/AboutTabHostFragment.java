@@ -1,4 +1,4 @@
-package com.about.octos.aboutoctos;
+package com.about.cosmicos.aboutcosmicos;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -13,33 +13,33 @@ import android.view.ViewGroup;
 
 public class AboutTabHostFragment extends Fragment {
     private static Context mContext;
-    private static Resources mKraken;
+    private static Resources mGalaxy;
 
     private TabAdapter mAdapter;
     private PagerSlidingTabStrip mTabs;
     private ViewPager mPager;
 
     private static int[] mFragments = new int[] {
-            R.string.team_octos_project,
-            R.string.team_octos_members,
-            R.string.team_octos_supporters,
+            R.string.team_cosmicos_project,
+            R.string.team_cosmicos_members,
+            R.string.team_cosmicos_supporters,
     };
 
-    private static final int[] mFragmentsKraken = new int[] {
-            R.string.team_octos_project,
-            R.string.team_octos_members,
-            R.string.team_octos_kraken,
-            R.string.team_octos_supporters,
+    private static final int[] mFragmentsGalaxy = new int[] {
+            R.string.team_cosmicos_project,
+            R.string.team_cosmicos_members,
+            R.string.team_cosmicos_galaxy,
+            R.string.team_cosmicos_supporters,
     };
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mContext = getActivity();
-        mKraken = getResources();
+        mGalaxy = getResources();
 
-        if (mKraken.getBoolean(R.bool.device_has_kraken)) {
-            mFragments = mFragmentsKraken;
+        if (mGalaxy.getBoolean(R.bool.device_has_galaxy)) {
+            mFragments = mFragmentsGalaxy;
         }
     }
 
@@ -82,15 +82,15 @@ public class AboutTabHostFragment extends Fragment {
                 case 1:
                     return new AboutCrewFragment();
                 case 2:
-                    if (!mKraken.getBoolean(R.bool.device_has_kraken)) {
+                    if (!mGalaxy.getBoolean(R.bool.device_has_galaxy)) {
                         return new AboutSupportersFragment();
                     }
                     else
                     {
-                        return new AboutKrakenFragment();
+                        return new AboutGalaxyFragment();
                     }
                 case 3:
-                    if (mKraken.getBoolean(R.bool.device_has_kraken)) {
+                    if (mGalaxy.getBoolean(R.bool.device_has_galaxy)) {
                         return new AboutSupportersFragment();
                     }
             }

@@ -1,4 +1,4 @@
-package com.about.octos.koushikdutta.urlimageviewhelper;
+package com.about.cosmicos.koushikdutta.urlimageviewhelper;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;

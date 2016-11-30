@@ -1,4 +1,4 @@
-package com.about.octos.aboutoctos;
+package com.about.cosmicos.aboutcosmicos;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ public class AboutCrewFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_about_octos_crew, container, false);
+        View root = inflater.inflate(R.layout.fragment_about_cosmicos_crew, container, false);
 
         Random rng = new Random();
 

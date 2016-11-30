@@ -16,7 +16,6 @@
 <resources>
 
     <declare-styleable name="DeveloperPreference">
-        <attr name="twitterHandle" format="string"/>
         <attr name="gplusLink" format="string"/>
         <attr name="nameDev" format="string"/>
         <attr name="donateLink" format="string"/>

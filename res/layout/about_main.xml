@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 Team-OctOs
+<!-- Copyright (C) 2016 Cosmic-OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,6 +15,6 @@
 -->
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment"
-    android:name="com.about.octos.aboutoctos.AboutTabHostFragment"
+    android:name="com.about.cosmicos.aboutcosmicos.AboutTabHostFragment"
     tools:layout="@layout/fragment_about_main" android:layout_width="match_parent"
     android:layout_height="match_parent" />

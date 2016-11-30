@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.about.octos.aboutoctos"
+    package="com.about.cosmicos.aboutcosmicos"
     android:versionCode="2"
     android:versionName="1.1" >
 
@@ -12,11 +12,11 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/about_octos"
-        android:theme="@style/OctOSTheme" >
+        android:label="@string/about_cosmicos"
+        android:theme="@style/CosmicOSTheme" >
         <activity
             android:name=".AboutActivity"
-            android:label="@string/about_octos" >
+            android:label="@string/about_cosmicos" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -29,13 +29,13 @@
             android:parentActivityName=".AboutActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.about.octos.aboutoctos.AboutActivity" />
+                android:value="com.about.cosmicos.aboutcosmicos.AboutActivity" />
         </activity>
 
         <activity-alias
-            android:name=".AboutOctOs"
+            android:name=".AboutCosmicOs"
             android:targetActivity=".AboutActivity"
-            android:label="@string/about_octos" >
+            android:label="@string/about_cosmicos" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>

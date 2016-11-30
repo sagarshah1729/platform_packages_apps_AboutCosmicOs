@@ -1,4 +1,4 @@
-package com.about.octos.koushikdutta.urlimageviewhelper;
+package com.about.cosmicos.koushikdutta.urlimageviewhelper;
 
 public interface Constants {
 

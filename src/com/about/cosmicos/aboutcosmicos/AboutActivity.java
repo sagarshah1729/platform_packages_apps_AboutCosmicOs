@@ -1,4 +1,4 @@
-package com.about.octos.aboutoctos;
+package com.about.cosmicos.aboutcosmicos;
 
 import android.app.Activity;
 import android.content.ComponentName;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.about.octos.aboutoctos;
+package com.about.cosmicos.aboutcosmicos;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

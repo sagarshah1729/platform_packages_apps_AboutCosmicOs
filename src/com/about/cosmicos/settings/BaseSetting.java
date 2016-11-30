@@ -1,4 +1,4 @@
-package com.about.octos.settings;
+package com.about.cosmicos.settings;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.about.octos.aboutoctos.R;
+import com.about.cosmicos.aboutcosmicos.R;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

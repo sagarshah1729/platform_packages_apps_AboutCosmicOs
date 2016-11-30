@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.about.octos.koushikdutta.urlimageviewhelper;
+package com.about.cosmicos.koushikdutta.urlimageviewhelper;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedWriter;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.about.octos.aboutoctos;
+package com.about.cosmicos.aboutcosmicos;
 
 import android.app.Fragment;
 import android.content.ActivityNotFoundException;
@@ -35,7 +35,7 @@ public class AboutFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_about_octos, container, false);
+        View root = inflater.inflate(R.layout.fragment_about_cosmicos, container, false);
 
         return root;
     }

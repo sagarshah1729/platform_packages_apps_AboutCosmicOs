@@ -1,4 +1,4 @@
-package com.about.octos.widgets;
+package com.about.cosmicos.widgets;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,8 +10,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.about.octos.aboutoctos.R;
-import com.about.octos.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
+import com.about.cosmicos.aboutcosmicos.R;
+import com.about.cosmicos.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -20,7 +20,6 @@ public class DeveloperPreference extends LinearLayout {
     private static final String TAG = "DeveloperPreference";
     public static final String GRAVATAR_API = "http://www.gravatar.com/avatar/";
     public static int mDefaultAvatarSize = 400;
-    private ImageView twitterButton;
     private ImageView gplusButton;
     private ImageView donateButton;
     private ImageView githubButton;
@@ -29,7 +28,6 @@ public class DeveloperPreference extends LinearLayout {
     private TextView devName;
 
     private String nameDev;
-    private String twitterName;
     private String gplusLink;
     private String donateLink;
     private String githubLink;
@@ -55,7 +53,6 @@ public class DeveloperPreference extends LinearLayout {
         try {
             typedArray = context.obtainStyledAttributes(attrs, R.styleable.DeveloperPreference);
             nameDev = typedArray.getString(R.styleable.DeveloperPreference_nameDev);
-            twitterName = typedArray.getString(R.styleable.DeveloperPreference_twitterHandle);
             gplusLink = typedArray.getString(R.styleable.DeveloperPreference_gplusLink);
             donateLink = typedArray.getString(R.styleable.DeveloperPreference_donateLink);
             githubLink = typedArray.getString(R.styleable.DeveloperPreference_githubLink);
@@ -73,7 +70,6 @@ public class DeveloperPreference extends LinearLayout {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View layout = inflater.inflate(R.layout.dev_card, this, true);
 
-        twitterButton = (ImageView) layout.findViewById(R.id.twitter_button);
         donateButton = (ImageView) layout.findViewById(R.id.donate_button);
         githubButton = (ImageView) layout.findViewById(R.id.github_button);
         gplusButton = (ImageView) layout.findViewById(R.id.gplus_button);
@@ -145,25 +141,6 @@ public class DeveloperPreference extends LinearLayout {
             githubButton.setOnClickListener(openGithub);
         } else {
             githubButton.setVisibility(View.GONE);
-        }
-
-        if (twitterName != null) {
-            final OnClickListener openTwitter = new OnClickListener() {
-
-                @Override
-                public void onClick(View v) {
-                    Uri twitterURL = Uri.parse("http://twitter.com/#!/" + twitterName);
-                    final Intent intent = new Intent(Intent.ACTION_VIEW, twitterURL);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    getContext().startActivity(intent);
-                }
-            };
-
-            // changed to clicking the preference to open twitter
-            // it was a hit or miss to click the twitter bird
-            this.setOnClickListener(openTwitter);
-        } else {
-            twitterButton.setVisibility(View.INVISIBLE);
         }
     }
 

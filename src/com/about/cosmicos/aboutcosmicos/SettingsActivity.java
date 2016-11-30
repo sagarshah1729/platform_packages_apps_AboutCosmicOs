@@ -1,4 +1,4 @@
-package com.about.octos.aboutoctos;
+package com.about.cosmicos.aboutcosmicos;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;

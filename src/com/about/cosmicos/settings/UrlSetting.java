@@ -1,4 +1,4 @@
-package com.about.octos.settings;
+package com.about.cosmicos.settings;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.net.Uri;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.View.OnClickListener;
-import com.about.octos.aboutoctos.R;
+import com.about.cosmicos.aboutcosmicos.R;
 
 /**
  * Setting toggle which represents a boolean value
